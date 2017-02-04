@@ -24,9 +24,7 @@
 ###シミュレータの実行方法  
 ####環境 
 - PC : Ubuntu14.04 Desktop
-- ROS : ROS Indigo
-
----
+- ROS : ROS Indigo  
 
 gazeboにkobukiをインストール
 ```
