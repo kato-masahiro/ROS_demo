@@ -12,11 +12,19 @@
 ###行ったこと  
 - ROSのシミュレータGazebo上でkobukiというロボットを動かした
 
-###実行方法  
+###シミュレータの実行方法  
 ####環境 
-- PC:Ubuntu14.04 Desktop
-- ROS:ROS Indigo
+- PC : Ubuntu14.04 Desktop
+- ROS : ROS Indigo
 
+gazeboにkobukiをインストール
+```
+$ sudo apt-get install ros-indigo-kobuki-gazebo
+```
+起動
+```
+$ roslaunch kobuki_gazebo kobuki_empty_world.launch
+```
 ###参考  
 ####小倉祟 著 工学社 I/O BOOKS 「ROSではじめるロボットプログラミング」 
 第8章 「シミュレータ」上の「ロボット」を動かす
